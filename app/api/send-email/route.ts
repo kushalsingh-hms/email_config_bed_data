@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
+export const runtime = 'nodejs'
+
 
 const GMAIL_USER = 'usme1601@gmail.com'
 const GMAIL_APP_PASSWORD = 'pjsg gxgp mqdm pfnm'
